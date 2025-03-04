@@ -9,6 +9,7 @@ def containsDuplicate(self, nums: List[int]) -> bool:
             check[nums[i]] = 1
     return False
 
+
 def containsDuplicates2(nums:List[int])-> bool:
     nums.sort()
     for i in range(len(nums)-1):
